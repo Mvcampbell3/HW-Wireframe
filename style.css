@@ -30,7 +30,12 @@ article{
     background: #ebebeb;
     width: 446px;
     margin: 10px auto;
-    padding: 2px 0;
+    padding: 10px 0;
+}
+
+.hArea h2, .pArea h2{
+    padding: 0;
+    margin: 0;
 }
 
 .clearfix{
@@ -40,13 +45,22 @@ article{
 section{
     float: left;
     width: 496px;
+    padding: 10px 0 20px 0;
+}
+
+section h2{
     padding-bottom: 20px;
+}
+
+article h2{
+    padding: 10px 0;
+    margin: 0;
 }
 
 aside{
     float: right;
     width: 444px;
-    padding: 0 0 296.5px 0;
+    padding: 0 0 254px 0;
 }
 
 header, nav, footer{
